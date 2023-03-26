@@ -2,44 +2,68 @@
 TOKEN: abalabahaha
 
 # Guild ID
-GUILD_ID: 123456
+GUILD_ID: 998827827153600573
 
 # Role to allow chat in locked down channels
-AUTHORIZED_ROLE_ID: 123456
+AUTHORIZED_ROLE_ID: 1081468416814235698
 
 # Staff role to initiate mass lockdown (Optional, will always listen to MANAGE_GUILD)
-STAFF_ROLE_ID: null
+STAFF_ROLE_ID: 1081468416814235698
 
 # Channel to announce lockdowns/unlockdowns in. Set to `all` to announce in every locked down channel. Set to `null` if unused.
 ANNOUNCE_CHANNEL_ID: all
 
 # Announcement messages for lockdown/unlockdown. Set to `null` if unused.
-LOCKDOWN_ANNOUNCEMENT: "This server is currently under mass lockdown. Please be patient."
-UNLOCKDOWN_ANNOUNCEMENT: "This server no longer under mass lockdown. Thank you for your patience."
+LOCKDOWN_ANNOUNCEMENT: "The official Pleasant Hotels server is currently locked, and is being managed by the Crisis Intervention Department. Currently, you do not have the ability to type in any channels. This issue will be resolved shortly, apologies for the interruption."
+UNLOCKDOWN_ANNOUNCEMENT: "The official Pleasant Hotels server has been unlocked. An alert will be posted shortly with the reasoning of this server-wide lockdown, and information has been sent to Pleasant Corporation."
 
 # Auto-mention threshold (Minimum to fire, inclusive) (set to 0 to disable)
-MENTION_THRESHOLD: 15
+MENTION_THRESHOLD: 40
 
 # Staff channel - will report auto lockdowns. Set to `null` to disable.
-STAFF_CHANNEL_ID: 123456
+STAFF_CHANNEL_ID: 1086563581862096916
 
 # Recent join threshold - When reporting auto lockdowns, will also print a list of members who joined in the last n seconds. (set to 0 to disable)
-RECENT_JOIN_THRESHOLD: 20
+RECENT_JOIN_THRESHOLD: 50
 
 # Mass lockdown commands
 LOCKDOWN_COMMANDS:
-  - "pls masslockdown"
-  - "+masslockdown"
+  - ":masslockdown"
   - "!masslockdown"
+  - "?masslockdown"
+  - ":lockdown"
+  - "!lockdown"
+  - "?lockdown"
+  - ":serverlockdown"
+  - "!serverlockdown"
+  - "?lockdown"
+  - ":pleasantlockdown"
+  - "!pleasantlockdown"
+  - "?pleasantlockdown"
 
 # Mass unlockdown commands
 UNLOCKDOWN_COMMANDS:
-  - "pls massunlockdown"
-  - "pls unmasslockdown"
-  - "+massunlockdown"
-  - "+unmasslockdown"
+  - ":massunlockdown"
   - "!massunlockdown"
+  - "?massunlockdown"
+  - ":unmasslockdown"
   - "!unmasslockdown"
+  - "?unmasslockdown"
+  - ":unlockdown"
+  - "!unlockdown"
+  - "?unlockdown"
+  - ":endlockdown"
+  - "!endlockdown"
+  - "?endlockdown"
+  - ":lockdownend"
+  - "!lockdownend"
+  - "?lockdownend"
+  - ":unserverlockdown"
+  - "!unserverlockdown"
+  - "?unserverlockdown"
+  - ":unpleasantlockdown"
+  - "!unpleasantlockdown"
+  - "?unpleasantlockdown"
 
 
 # Developer options; don't touch
