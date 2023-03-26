@@ -296,7 +296,7 @@ async def unlockdown(message, args):
         ]
         if not channel_list:
             await message.channel.send(
-                "Error: No locked down channels were cached (or had no permissions to modify them).\nPlease specify list of IDs to unlockdown."
+                "Error: No locked down channels were cached (or Pleasant Crisis Intervention has no permissions to modify them).\nPlease specify list of IDs to unlockdown."
             )
             return
 
@@ -328,7 +328,7 @@ async def execute_auto_lockdown(message):
             )
 
         staff_announce_msg += (
-            "\n\nNow locking down the following channels: "
+            "\n\nThe following channels were locked down: "
             + " ".join([c.mention for c in channel_list])
         )
 
